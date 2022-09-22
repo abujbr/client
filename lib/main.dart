@@ -142,7 +142,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Positioned(
                 top: 20,
-                left: _val * 30,
+                left: _val * 100,
                 child: Center(
 
             child: Image.asset('assets/image1.png'),
