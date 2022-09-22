@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
   void _connecting() async{
-    final socket = await Socket.connect('localhost', 4567);
+    final socket = await Socket.connect('10.1.14.6', 4567);
     print('Connected to: ${socket.remoteAddress.address}:${socket.remotePort}');
     // listen for responses from the server
     socket.listen(
